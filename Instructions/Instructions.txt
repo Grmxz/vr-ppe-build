@@ -1,0 +1,16 @@
+!! This project is only compatible with the HP Omnicept reverb G2 VR Headset.
+!! If you are using a different device the data from the sensors will not be recorded and the controllers may not be recognized.
+!! You need to place the config.txt file at %appdata%\..\LocalLow\CERV\vr-ppe\config.txt 
+
+
+
+
+<<<     bindings     >>>
+To be sure that you are using the right keys please refer to the image "know your controllers".
+The primary buttons are X and A
+The secondary buttons are Y and B
+
+
+
+Good luck
+

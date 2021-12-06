@@ -1,0 +1,26 @@
+;to place at %appdata%\..\LocalLow\CERV\VR-PPE\
+;create the path if it didn't exist
+
+[userid]
+name = test
+age = 23
+health = good
+
+[experiment]
+;choosed scene -calcul -doubleTask -tripleTaskNoInteruption -tripleTaskNASAtlx
+type = doubleTask 
+
+;if true begin the hard way true = 1 false = 0
+reverse=0
+
+;phase time in seconds
+experienceTime = 20
+
+;pause time in seconds
+pauseTime = 30
+
+;if true propose a survey to evaluate cognitive load true = 1 false = 0
+survey = 1
+
+;allow to skip the tutorial may cuse saving issues on cognitive load data true = 1 false = 0
+skipTuto = 1
