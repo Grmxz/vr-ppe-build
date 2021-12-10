@@ -1,0 +1,1 @@
+@start ""  ".\dist\PPE Charts.exe"
