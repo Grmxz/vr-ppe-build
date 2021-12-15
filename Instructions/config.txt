@@ -1,26 +1,33 @@
-;to place at %appdata%\..\LocalLow\CERV\VR-PPE\
-;create the path if it didn't exist
-
 [userid]
-name = test
-age = 23
-health = good
+name = No Name Set
+age = 0
+health = Unknown
 
 [experiment]
-;choosed scene -calcul -doubleTask -tripleTaskNoInteruption -tripleTaskNASAtlx
-type = doubleTask 
+; choosed scene -calcul - doubleTask - tripleTaskNoInteruption - tripleTaskNASAtlx
+type = calcul
 
-;if true begin the hard way true = 1 false = 0
-reverse=0
+; if true begin the hard way true = 1 false = 0
+reverse = 0
 
-;phase time in seconds
-experienceTime = 20
+; phase time in seconds
+experienceTime = 180
 
-;pause time in seconds
+; pause time in seconds
 pauseTime = 30
 
-;if true propose a survey to evaluate cognitive load true = 1 false = 0
+; if true propose a survey to evaluate cognitive load true = 1 false = 0
 survey = 1
 
-;allow to skip the tutorial may cuse saving issues on cognitive load data true = 1 false = 0
-skipTuto = 1
+; allow to skip the tutorial may cuse saving issues on cognitive load data true = 1 false = 0
+skipTuto = 0
+
+; set the repetition rate for the audio stimulus
+AudioStimulusAverage = 14
+
+; set the maximus deviation from the average in seconds
+AudioStimulusDelta = 3
+
+; set maximum response time (time saved if there is no response from the user)
+MaximumResponseTime = 10
+

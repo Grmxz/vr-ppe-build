@@ -2,7 +2,7 @@
 
 ## Windows Mixed Reality
 
-The first step to get started with the Headset Omnicept is to set up it withim the Windows Mixed Reality. All steps to do this are instructed in the [pdf](./Images/Headset_Set-Up.pdf).
+The first step to get started with the Headset Omnicept is to set up it withim the Windows Mixed Reality. All steps to do this are instructed in the [pdf](./Images/Headset_Set-Up.pdf)
 
 ## Runtime 
 
@@ -63,14 +63,28 @@ At the end of the experiment you will get a folder named after the subject conta
 * **reverse** : Set it to **1** if you want to begin by the complex tasks work only with [Double Task](./instructions.md#double-task) and [Triple Task](./instructions.md#triple-task)
 * **experienceTime** : Set the duration of each part of the experiment in seconds (default value = 180, 3 minutes for each part, 6 minutes in total)
 * **pauseTime** : Set the duration of the pause between parts in seconds<br>
-  <span style="color:yellow">**WARNING**</span> only work if **survey** is disable<br>
+  <span style="color:yellow">**WARNING**</span> the **survey** wait to be confirmed even if it exceed pause time <br>
   (default value = 30)
 * **survey** : displays a quiz derived from the NASA-TLX at the end of each part<br>answers are logged in a text file with the average response time and cognitive load by part
 * **skipTuto** : allow you to skip the tutorial and begin with the experient right away.<br><span style="color:yellow">**WARNING**</span> the cognitive load start logging after one minute of play so if you skip the tutorial make sure to not start right away.
+* **AudioStimulusAverage** : set the repetition rate for the audio stimulus in seconds (with 15 about 4 stimuli per minute).
+* **AudioStimulusDelta** : set the maximus deviation from the average in seconds [average-delta , average+delta] (if set to 0 the stimulus will be constant).
+* **MaximumResponseTime** : set maximum response time (time saved if there is no response from the user).
   
 ## Omnicept Sensor Diagnostic
 To verify if the Headset sensors works there are an application for this. You can download the Omnicept Sensor Diagnostic at https://developers.hp.com/omnicept/downloads, scroll the page until the session tools, and you will find the download option. To download the application a HP Account is needed.
 
+## Autorisations
+
+After running the application for the first time a notification will appear requesting sensors permissions, **WARNING** if you do not accept the application will not save any data related to sensors
+
+![](/Instructions/Images/Notification.png)
+
+If you missed it don't worry you can access it by going into the hidden icons and open the omnicept runtime then in autorisation tab choost to trust the application by pressing ✔️.
+
+![](/Instructions/Images/Runtime.png)
+
 [Return to ReadMe](./../ReadMe.md)
 
 [Go to instructions](./instructions.md) 
+

@@ -36,16 +36,20 @@ From the game we are saving several more informations
 
 ## Additionnal informations
 
-More informations are saved into a text file netx to the csv
+More informations are saved into a text file next to the csv
 
-After each part of the experiment some NASA-TLX questions are asked.
+After each part of the experiment the NASA-TLX questions are asked.
 * **Mental Demmand** : How much mental and perceptual activity was required? Was the task easy or demanding, simple or complex?
+* **Physical Demand** : How much physical activity was required? Was the task easy or demanding, slack or strenuous?
+* **Temporal Demand** : How much time pressure did you feel due to the pace at which the tasks or task elements occurred? Was the pace slow or rapid?
 * **Performance** : How successful were you in performing the task? How satisfied were you with your performance?
 * **Effort** : How hard did you have to work (mentally and physically) to accomplish your level of performance?
 * **Frustration** : How irritated, stressed, and annoyed versus content, relaxed, and complacent did you feel during the task?
   
-There is also the average response time for the more simple task and the more complec one.<br>
-Finally we save the average cognitive load by part (calculated by the headset).
+![Nasa Tlx](./Images/Screen_NasaTlx.png)
+
+There is also the **average response time** for the more simple task and the more complec one.<br>
+Finally we save the **average cognitive load by part** (calculated by the headset).
 
 
 [Return to ReadMe](./../ReadMe.md)
